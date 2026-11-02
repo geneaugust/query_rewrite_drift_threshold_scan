@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "geneaugust-redteam_jd086"
+name = "geneaugust-query_rewrite_drift_threshold_scan"
 version = "0.1.0"
 description = "为每一项打分并与阈值比较，明确标出通过、边界与不通过三档"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://geneaugust.github.io"
-Repository = "https://github.com/geneaugust/redteam_jd086"
-Issues = "https://github.com/geneaugust/redteam_jd086/issues"
+Repository = "https://github.com/geneaugust/query_rewrite_drift_threshold_scan"
+Issues = "https://github.com/geneaugust/query_rewrite_drift_threshold_scan/issues"
 
 [project.scripts]
-redteam_jd086 = "redteam_jd086:main"
+query_rewrite_drift_threshold_scan = "query_rewrite_drift_threshold_scan:main"
 
 [tool.setuptools]
-py-modules = ["redteam_jd086"]
+py-modules = ["query_rewrite_drift_threshold_scan"]
